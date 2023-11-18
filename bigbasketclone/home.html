@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    
+    <style>
+.grid-container {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20%;
+  justify-content: space-evenly ;
+  padding: 10px;
+  margin: 20px;
+}
+.grid-item {
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 25%;
+  text-align: center;
+  margin: 20px;
+  
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    /*border: 1px solid green;*/
+    padding-top: 10px;
+ 
+    
+}
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  
+}
+.sec{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    
+
+}
+.btn{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 12px;
+    border-radius: 15%;
+    border:none;
+}
+.third{
+ width: 50%;
+}
+
+#cart{
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.first cart{
+    text-align: center;
+    border: 1px solid green;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    justify-content: space-evenly ;
+    padding: 10px;
+    margin: 20px;
+    }
+.second{
+        text-align: center;
+    }
+.excart{
+        /*border: 1px solid red;*/
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-radius: 5%;
+        margin: -7%;
+
+    }
+.innercart{
+        border: 1px solid rgb(76, 221, 76);
+
+    }
+.topoffers{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    justify-content: space-evenly;
+    padding: 10px;
+    margin: 20px;
+    
+    
+
+    }
+.one{
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-end-end-radius: 5%;
+        border-radius: 5%;
+        cursor: pointer;
+
+    }
+.fruitsandv{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    justify-content: space-evenly;
+    padding: 10px;
+    margin: 20px;
+     
+    }
+.two{
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-end-end-radius: 5%;
+        border-radius: 5%;
+        cursor: pointer;
+
+    }
+.yds{
+        display: grid;
+    grid-template-columns: 12% 12% 12% 12% 12% 12%;
+    justify-content: space-evenly;
+    padding: 10px;
+    margin: 20px;  
+    }
+.third{
+        margin-left: 8%;
+        border-radius: 5%;
+        cursor: pointer;
+
+    }
+.Beverages{
+        display: grid;
+    grid-template-columns: 12% 12% 12% 12% 12% 12%;
+    justify-content: space-evenly;
+    padding: 10px;
+    margin: 20px;
+    }
+.four{
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-end-end-radius: 5%;
+        border-radius: 5%;
+        cursor: pointer;
+    }
+.snackstore{
+        display: grid;
+        grid-template-columns: 20% 20% 20% 20%;
+        justify-content: space-evenly;
+        padding: 10px;
+        margin: 20px;
+    }
+.five{
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-end-end-radius: 5%;
+        border-radius: 5%;
+        cursor: pointer;
+    }
+.Cleaning{
+        display: grid;
+        grid-template-columns: 20% 20% 20% 20%;
+        justify-content: space-evenly;
+        padding: 10px;
+        margin: 20px;
+    }
+.six{
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-end-end-radius: 5%;
+        border-radius: 5%;
+        cursor: pointer;
+    }
+.Beauty{
+        display: grid;
+    grid-template-columns: 12% 12% 12% 12% 12% 12%;
+    justify-content: space-evenly;
+    padding: 10px;
+    margin: 20px;
+
+    }
+.seven{
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-end-end-radius: 5%;
+        border-radius: 5%;
+        cursor: pointer;
+    }
+.Home{
+        display: grid;
+    grid-template-columns: 12% 12% 12% 12% 12% 12%;
+    justify-content: space-evenly;
+    padding: 10px;
+    margin: 20px;
+    }
+.eight{
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-end-end-radius: 5%;
+        border-radius: 5%;
+        cursor: pointer;
+    }
+.Brand-store{
+        display: grid;
+        grid-template-columns : 12% 12% 12% 12% 12% 12%;
+        justify-content: space-evenly;
+        padding: 10px;
+        margin: 20px;
+    }
+.nine{
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-end-end-radius: 5%;
+        border-radius: 5%;
+        cursor: pointer;
+    }
+#next{
+    background-position: 40%;
+    background-repeat: no-repeat;
+    margin: 10%;
+    margin-top: -5px;
+    }
+.htag{
+        margin-left: 6%;
+    }
+.list{
+        cursor: pointer;
+        background-color: white;
+        outline: none;
+        outline: 0px solid transparent;
+        border:none;
+}
+    </style>
+</head>
+<body>
+<div id="next">
+    <div class ="main">
+        <div style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+            <nav class="navbar">
+               <div style="cursor: pointer;">
+                   <a href="home.html"><button><img src="./bb logo.png" alt="logo"></button></a>
+               </div>
+               <div>
+                   <input style="  padding: 5px 120px;
+                   text-align: left;
+                   text-decoration: none;
+                   display: inline-block;
+                   font-size: 16px;
+                   margin: 2px 2px;
+                   cursor: pointer;
+                   background-color: white;
+                   border-radius: 5%;border-color: lightgray;" type="text"placeholder="search for product">
+               </div>
+               <div>
+                   <button style=" cursor: pointer;
+                   padding:12px 30px; border-radius: 5%;border:none;" >select location</button>
+                   <button style=" cursor: pointer;
+                   background-color:black;padding: 12px 15px;color: white; border-radius: 5%;">login/signup</button>
+                     
+               </div>
+               
+               <p>my basket</p>
+               
+           </nav>
+           <div class="sec">
+               <a href="categary.html"> <button style="background-color: rgb(85, 148, 85); color: white;padding: 5px 35px;border-radius: 5px;border:none; cursor: pointer;">Shop by 
+                   <br>Category</button></a>
+              
+              <a href="exoticsfood.html"> <button class="list"  >Exotic Fruits and V...</button></a>
+               <a href="Tea.html"><button class="list"> Tea</button></a>
+               <a href="Ghee.html"><button class="list"> Ghee</button></a>
+               <a href="Nandini.html"><button class="list">Nandini</button></a>
+               
+       
+               <input type="text"placeholder="OFFER'S">
+       
+           </div>
+        </div>
+           <div class="main">
+               <img src="" alt="">
+           </div>
+                
+           <div class="btn" >
+               <button class="btn">EGGS,MEAT <br>AND FISH</button>
+               <button class="btn" style="background-color: green;color: white;">AYURVEDA</button>
+               <button class="btn"  >BUY MORE SAVE MORE</button>
+               <button class="btn">DEALS OF THE WEAK</button>
+               <button class="btn">COMBO STORE</button>
+           </div>
+           <div class="third">
+               <img src="https://www.bigbasket.com/media/uploads/banner_images/hp_cmc_big-indian-grocery-sale_400_251023.jpg?tr=w-1200,q=80" style="width:170%;"alt="">
+           </div>
+           <h1 style="text-align: center;">Shop by Category</h1>
+       
+           <div class="grid-container">
+               <div>
+                   <img style="width: 100%;" src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/3c5df782-1789-4bea-8403-9fd766652b34/t1_hp_aff_m_neu_360_021123.jpg?tr=w-828,q=80" alt="">
+               </div>
+               <div>
+                   <img style="width: 100%;" src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/3c5df782-1789-4bea-8403-9fd766652b34/t1_hp_aff_m_icici_360_021123.jpg?tr=w-828,q=80" alt="">
+               </div>
+               <div>
+                   <img style="width: 100%;" src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/3c5df782-1789-4bea-8403-9fd766652b34/t1_hp_aff_m_citi_360_021123.jpg?tr=w-828,q=80" alt="">
+               </div>
+               <div >
+                   <img style="width: 100%;" src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/3c5df782-1789-4bea-8403-9fd766652b34/t1_hp_aff_m_simpl_360_021123.jpg?tr=w-828,q=80" alt="">
+               </div>
+               
+           </div>
+    </div>  
+    <div class="grid-container">
+        <div class="excart">
+            <img style="width: 100%;" src="https://www.bigbasket.com/media/uploads/p/m/1206544_2-himalaya-baby-wipes-gentle-baby.jpg?tr=w-1920,q=80" alt="">
+            <div class="innercat" style="margin-left:10%;">
+                <div>
+                    <p>
+                        Himalaya BAby
+                    </p>
+                    <h4>
+                        Wipes - Gentle Baby
+                    </h4>
+                    <div>
+                        <p>
+                            40 Rating
+                        </p>
+                        <br>
+
+                    </div>
+                    <button style="padding: 5px 40px;background-color: white;" >2*72 pcs - Multipack</button>
+                </div>
+                <div>
+                    <br>
+
+                    380 Rs.
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+
+
+                </div>
+            
+                <div>
+                    <button> + </button>
+                    <button style="border-color: red; color: red; border-radius: 5%;
+                     padding: 5px 60px;
+                    text-align: center;
+                    text-decoration: none;
+                    display: inline-block;
+                    font-size: 16px;
+                    margin: 2px 2px;
+                    cursor: pointer;
+                    background-color: white;">  Add </button>
+                </div>
+            </div>
+        </div>
+
+        <div  class="excart">
+            <img style="width: 100%;" src="https://www.bigbasket.com/media/uploads/p/m/40202339_4-pampers-baby-wipes-with-aloe.jpg?tr=w-1920,q=80" alt="">
+            <div class="innercat" style="margin-left:10%;">
+                <div>
+                    <p>
+                        pampers
+                    </p>
+                    <h4>
+                       Baby Wipes - With Aloe
+                    </h4>
+                    <div>
+                        <p>
+                            4.2* 162  Rating
+                        </p>
+                        <br>
+                    </div>
+                    <button style="padding: 5px 40px;background-color: white;">72 pcs - (Pack of 2)</button>
+                </div>
+                <div>
+                    <br>
+                    418.6 Rs
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+
+                </div>
+            
+                <div>
+                    <button>+</button>
+                    <button style="border-color: red; color: red; border-radius: 5%;
+                    padding: 5px 60px;
+                   text-align: center;
+                   text-decoration: none;
+                   display: inline-block;
+                   font-size: 16px;
+                   margin: 2px 2px;
+                   cursor: pointer;
+                   background-color: white;"
+                   >  Add </button>
+                </div>
+            </div>
+        </div>
+        <div  class="excart">
+            <img style="width: 100%;" src="https://www.bigbasket.com/media/uploads/p/m/1224870_1-littles-baby-wipes-with-aloe-vera-jojoba-oil-vitamin-e.jpg?tr=w-1920,q=80" alt="">
+            <div class="innercat" style="margin-left:10%;">
+                <div>
+                    <p>
+                        Littles
+                    </p>
+                    <h6>
+                        Baby Wipes-With AloeVera, Jojoba Oil &Vitamin
+                    </h6>
+                    <div>
+                        <p>
+                            4* 132 Rating
+                        </p>
+                    </div>
+                    <button style="padding: 5px 40px;background-color: white;">2*80 pcs - Multipack</button>
+                </div>
+                <div>
+                    <br>
+                    65.29 Rs
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+
+                </div>
+            
+                <div>
+                    <button>+</button>
+                    <button style="border-color: red; color: red; border-radius: 5%;
+                    padding: 5px 60px;
+                   text-align: center;
+                   text-decoration: none;
+                   display: inline-block;
+                   font-size: 16px;
+                   margin: 2px 2px;
+                   cursor: pointer;
+                   background-color: white;">  Add </button>
+                </div>
+            </div>
+        </div>
+        <div class="excart" >
+            <img style="width: 100%;" src="https://www.bigbasket.com/media/uploads/p/m/1201459_3-bigbasket-baby-wipes-fresh-no-paraben-double-moisturizing.jpg?tr=w-1920,q=80" alt="">
+            <div class="innercat" style="margin-left:10%;">
+                <div>
+                    <p>
+                        Bigbasket
+                    </p>
+                    <h6>
+                       Baby Wipes -Fresh,No Paraben, Double
+                    </h6>
+                   <br>
+                   <br>
+
+                    <button style="padding: 5px 40px;background-color: white;">3*80 pcs - Multipack</button>
+                </div>
+                <div>
+                    <br>
+
+                    315 Rs
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+
+                </div>
+            
+                <div>
+                    <button>+</button>
+                    <button style="border-color: red; color: red; border-radius: 5%;
+                    padding: 5px 60px;
+                   text-align: center;
+                   text-decoration: none;
+                   display: inline-block;
+                   font-size: 16px;
+                   margin: 2px 2px;
+                   cursor: pointer;
+                   background-color: white;">  Add </button>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <div class="grid-two">
+        <br>
+        <h1 class="htag">Top Offers</h1>
+        <div class="topoffers">
+            <div class="one">
+                <img style="width: 100%;" src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/2b94a9cf-895f-460d-849a-1eee860c974c/hp_dow-topoffersStorefront_m_480_250723_01.jpg?tr=w-1920,q=80" alt="">
+            </div>
+            <div class="one">
+                <img style="width: 100%;" src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/2b94a9cf-895f-460d-849a-1eee860c974c/hp_big-packs-topoffersStorefront_m_480_250723_02.jpg?tr=w-1920,q=80" alt="">
+            </div>
+            <div class="one">
+                <img style="width: 100%;" src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/2b94a9cf-895f-460d-849a-1eee860c974c/hp_combos-topoffersStorefront_m_480_250723_03.jpg?tr=w-1920,q=80" alt="">
+            </div>
+            <div class="one">
+                <img style="width: 100%;" src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/2b94a9cf-895f-460d-849a-1eee860c974c/hp_30-corner-topoffersStorefront_m_480_250723_04.jpg?tr=w-1920,q=80" alt="">
+            </div>
+
+        </div>
+    </div>
+    <div >
+        <h1 class="htag">Fruits and Vegetables</h1>
+        <div class="fruitsandv">
+            <div  class="two" >
+                <img style="width: 100%;" src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/41a0810e-1fc3-46e4-9d2c-7d9e79e0aa29/hp_f&v_m_fresh-vegetables_480_250923.jpg?tr=w-1920,q=80" alt="">
+            </div>
+            <div class="two" >
+                <img style="width: 100%;" src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/41a0810e-1fc3-46e4-9d2c-7d9e79e0aa29/hp_f&v_m_fresh-fruits_480_250923.jpg?tr=w-1920,q=80" alt="">
+            </div>
+            <div class="two" >
+                <img style="width: 100%;" src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/41a0810e-1fc3-46e4-9d2c-7d9e79e0aa29/hp_f&v_m_cuts-&-exotics_480_250923.jpg?tr=w-1920,q=80" alt="">
+            </div>
+            <div class="two" >
+                <img style="width: 100%;" src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/41a0810e-1fc3-46e4-9d2c-7d9e79e0aa29/hp_f&v_m_herbs-&-seasoning_480_250923.jpg?tr=w-1920,q=80" alt="">
+            </div> 
+        </div>
+
+    </div>
+    <div >
+        <h1 class="htag">Your Daily Staples</h1>
+        <div class="yds">
+            <div  class="third" >
+                <img style="width: 100%;" src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/0bb0a6da-8713-48fc-a40d-93cd63ca2025/hp_atta-flour-staplesStorefront_m_480_250323_01.jpg?tr=w-1920,q=80" alt="">
+            </div>
+            <div class="third" >
+                <img style="width: 100%;" src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/0bb0a6da-8713-48fc-a40d-93cd63ca2025/hp_rice-staplesStorefront_m_480_250323_02.jpg?tr=w-1920,q=80" alt="">
+            </div>
+            <div class="third" >
+                <img style="width: 100%;" src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/0bb0a6da-8713-48fc-a40d-93cd63ca2025/hp_dals-pulses-staplesStorefront_m_480_250323_03.jpg?tr=w-1920,q=80" alt="">
+            </div>
+            <div class="third" >
+                <img style="width: 100%;" src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/0bb0a6da-8713-48fc-a40d-93cd63ca2025/hp_cooking-oils-staplesStorefront_m_480_250323_04.jpg?tr=w-1920,q=80" alt="">
+            </div> 
+            <div class="third" >
+                <img style="width: 100%;" src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/0bb0a6da-8713-48fc-a40d-93cd63ca2025/hp_dry-fruits-staplesStorefront_m_480_250323_05.jpg?tr=w-1920,q=80" alt="">
+            </div>
+            <div class="third" >
+                <img style="width: 100%;" src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/0bb0a6da-8713-48fc-a40d-93cd63ca2025/hp_salt-staplesStorefront_m_480_250323_06.jpg?tr=w-1920,q=80" alt="">
+            </div>
+        </div>
+
+    </div>
+    <div >
+        <h1 class="htag">Beverages</h1>
+        <div class="Beverages">
+            <div  class="four" >
+                <img style="width: 100%;" src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/e4a9856b-dc3f-4927-a5a1-8edfe8d7dc38/hp_bev_m_health-drinks-&-supplements_480_250923.jpg?tr=w-1920,q=80" alt="">
+            </div>
+            <div class="four" >
+                <img style="width: 100%;" src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/e4a9856b-dc3f-4927-a5a1-8edfe8d7dc38/hp_bev_m_tea-&-coffee_480_250923.jpg?tr=w-1920,q=80" alt="">
+            </div>
+            <div class="four" >
+                <img style="width: 100%;" src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/e4a9856b-dc3f-4927-a5a1-8edfe8d7dc38/hp_bev_m_flavoured-&-soya-milk_480_250923.jpg?tr=w-1920,q=80" alt="">
+            </div>
+            <div class="four" >
+                <img style="width: 100%;" src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/e4a9856b-dc3f-4927-a5a1-8edfe8d7dc38/hp_bev_m_juices_480_250923.jpg?tr=w-1920,q=80" alt="">
+            </div> 
+            <div class="four" >
+                <img style="width: 100%;" src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/e4a9856b-dc3f-4927-a5a1-8edfe8d7dc38/hp_bev_m_energy-drinks_480_250923.jpg?tr=w-1920,q=80" alt="">
+            </div>
+            <div class="four" >
+                <img style="width: 100%;" src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/e4a9856b-dc3f-4927-a5a1-8edfe8d7dc38/hp_bev_m_soft-drinks-&-more_480_250923.jpg?tr=w-1920,q=80" alt="">
+            </div>
+        </div>
+
+    </div>
+    <div>
+        <h1 class="htag">Snacks Store</h1>
+        <div class="snackstore">
+         <div class="five">
+            <img style="width: 100%;" src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/09ece9f7-7ac9-4d1e-afbb-f8ac572add38/hp_sbf_m_biscuits-&-namkeens_480_250923.jpg?tr=w-1920,q=80" alt="">
+        </div>
+        <div class="five">
+            <img style="width: 100%;" src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/09ece9f7-7ac9-4d1e-afbb-f8ac572add38/hp_sbf_m_breakfast-cereals_480_250923.jpg?tr=w-1920,q=80" alt="">
+        </div>
+        <div class="five">
+            <img style="width: 100%;" src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/09ece9f7-7ac9-4d1e-afbb-f8ac572add38/hp_sbf_m_pasta-sauces-&-more_480_270723.jpg?tr=w-1920,q=80" alt="">
+        </div>
+        <div class="five">
+            <img style="width: 100%;" src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/09ece9f7-7ac9-4d1e-afbb-f8ac572add38/hp_sbf_m_sweet-cravings_480_250923.jpg?tr=w-1920,q=80" alt="">
+        </div>
+        </div>
+    </div> 
+    <div>
+        <h1 class="htag">Cleaning & Household</h1>
+        <div class="Cleaning">
+        <div class="six">
+            <img style="width: 100%;" src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/fefafda6-5ef7-4ed2-8fee-2574720666d7/hp_c&h_m_cleaners_480_250723.jpg?tr=w-1920,q=80" alt="">
+        </div>
+        <div class="six">
+            <img style="width: 100%;" src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/fefafda6-5ef7-4ed2-8fee-2574720666d7/hp_c&h_m_detergents-&-fabric-care_480_250723.jpg?tr=w-1920,q=80" alt="">
+        </div>
+        <div class="six">
+            <img style="width: 100%;" src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/fefafda6-5ef7-4ed2-8fee-2574720666d7/hp_c&h_m_paper-disposables-&-garbage-bags_480_250723.jpg?tr=w-1920,q=80" alt="">
+        </div>
+        <div class="six">
+            <img style="width: 100%;" src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/fefafda6-5ef7-4ed2-8fee-2574720666d7/hp_c&h_m_paper-disposables-&-garbage-bags_480_250723.jpg?tr=w-1920,q=80" alt="">
+        </div>
+        </div>
+    </div> 
+    <div >
+        <h1 class="htag">Beauty and Hygiene</h1>
+        <div class="Beauty and Hygiene">
+            <div  class="seven" >
+                <img style="width: 100%;" src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/50aa5fc7-cfa4-4919-b3ba-064fd9aa9441/hp_b&h_m_-makeup_480_250923.jpg?tr=w-1920,q=80" alt="">
+            </div>
+            <div class="seven" >
+                <img style="width: 100%;" src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/50aa5fc7-cfa4-4919-b3ba-064fd9aa9441/hp_b&h_m_moisturiser_480_250923.jpg?tr=w-1920,q=80" alt="">
+            </div>
+            <div class="seven" >
+                <img style="width: 100%;" src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/50aa5fc7-cfa4-4919-b3ba-064fd9aa9441/hp_b&h_m_perfumes_480_250923.jpg?tr=w-1920,q=80" alt="">
+            </div>
+            <div class="seven" >
+                <img style="width: 100%;" src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/50aa5fc7-cfa4-4919-b3ba-064fd9aa9441/hp_b&h_m_mens-shaving_480_250923.jpg?tr=w-1920,q=80" alt="">
+            </div> 
+            <div class="seven" >
+                <img style="width: 100%;" src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/50aa5fc7-cfa4-4919-b3ba-064fd9aa9441/hp_b&h_m_minimum-30-off_480_250923.jpg?tr=w-1920,q=80" alt="">
+            </div>
+            <div class="seven" >
+                <img style="width: 100%;" src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/50aa5fc7-cfa4-4919-b3ba-064fd9aa9441/hp_b&h_m_big-pack-bigger-saving%20bf_480_250923.jpg?tr=w-1920,q=80" alt="">
+            </div>
+        </div>
+
+    </div>
+    <div >
+        <h1 class="htag">Home and Kitchen</h1>
+        <div class="Home and Kitchen">
+            <div  class="eight" >
+                <img style="width: 100%;" src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/1efc132e-4754-4359-a9a3-a9c3ec267d28/hp_GMunder-99_m_250723_01.jpg?tr=w-1920,q=80" alt="">
+            </div>
+            <div class="eight" >
+                <img style="width: 100%;" src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/1efc132e-4754-4359-a9a3-a9c3ec267d28/hp_GM100-199_m_250723_02.jpg?tr=w-1920,q=80" alt="">
+            </div>
+            <div class="eight" >
+                <img style="width: 100%;" src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/1efc132e-4754-4359-a9a3-a9c3ec267d28/hp_GMStorefront-pressure-cooker_m_250723_03.jpg?tr=w-1920,q=80" alt="">
+            </div>
+            <div class="eight" >
+                <img style="width: 100%;" src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/1efc132e-4754-4359-a9a3-a9c3ec267d28/hp_GMStorefront-stationery-store_m_250723_04.jpg?tr=w-1920,q=80" alt="">
+            </div> 
+            <div class="eight" >
+                <img style="width: 100%;" src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/1efc132e-4754-4359-a9a3-a9c3ec267d28/hp_GM-storage-container_m_250723_05.jpg?tr=w-1920,q=80" alt="">
+            </div>
+            <div class="eight" >
+                <img style="width: 100%;" src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/1efc132e-4754-4359-a9a3-a9c3ec267d28/hp_GM-cleaning-needs_m_250723_06.jpg?tr=w-1920,q=80" alt="">
+            </div>
+        </div>
+
+    </div>
+
+    <div class="slideshow-container">
+        
+        <div class="mySlides fade">
+        <div class="numbertext"></div>
+        <img src="https://www.bigbasket.com/media/uploads/banner_images/B2C101905948-11092-DT-460-all-cm-241023.jpg?tr=w-1920,q=80" style="width:100%">
+        <div class="text">Caption Text</div>
+        </div>
+        
+        <div class="mySlides fade">
+        <div class="numbertext"></div>
+        <img src="https://www.bigbasket.com/media/uploads/banner_images/B2C101905948-11094-DT-460-all-cm-241023.jpg?tr=w-1920,q=80" style="width:100%">
+        <div class="text">Caption Two</div>
+        </div>
+        </div>
+        
+       
+        <br>
+        
+        <div style="text-align:center">
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+        </div> 
+    <div >
+        <h1 class="htag">Brand store</h1>
+        <div class="Brand-store">
+            <div  class="nine" >
+                <img style="width: 100%;" src=" https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/6a5c52eb-b9bf-4e29-867a-c7894d3270b3/amul-hp_brandStorefront_m_480_250723_01.jpg?tr=w-1920,q=80" alt="">
+            </div>
+            <div class="nine" >
+                <img style="width: 100%;" src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/6a5c52eb-b9bf-4e29-867a-c7894d3270b3/dettol-hp_brandStorefront_m_480_250723_02.jpg?tr=w-1920,q=80" alt="">
+            </div>
+            <div class="nine" >
+                <img style="width: 100%;" src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/6a5c52eb-b9bf-4e29-867a-c7894d3270b3/coca-cola-hp_brandStorefront_m_480_250723_03.jpg?tr=w-1920,q=80" alt="">
+            </div>
+            <div class="nine" >
+                <img style="width: 100%;" src= "https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/6a5c52eb-b9bf-4e29-867a-c7894d3270b3/loreal-hp_brandStorefront_m_480_250723_04.jpg?tr=w-1920,q=80 " alt="">
+            </div> 
+            <div class="nine" >
+                <img style="width: 100%;" src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/6a5c52eb-b9bf-4e29-867a-c7894d3270b3/Baulli_hp_brandStorefront_m_480_250723_05.jpg?tr=w-1920,q=80" alt="">
+            </div>
+            <div class="nine" >
+                <img style="width: 100%;" src="https://www.bigbasket.com/media/customPage/ b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/6a5c52eb-b9bf-4e29-867a-c7894d3270b3/durex-hp_brandStorefront_m_480_250723_06.jpg?tr=w-1920,q=80" alt="">
+            </div>
+        </div>
+
+   
+           
+    <div class="conclude">
+        <h2>bigbasket – online grocery store</h2>
+        <p>Did you ever imagine that the freshest of fruits and vegetables, top-quality pulses and food grains, dairy products, and hundreds of branded items could be handpicked and delivered to your home, all at the click of a button? In today's fast-paced world, bigbasket.com, India's pioneering online grocery store, continues to bring a staggering array of over 40,000 products from more than 1,000 brands to the doorsteps of over 10 million satisfied customers. From essential household cleaning products to the latest beauty and makeup trends, bigbasket remains your one-stop shop for daily needs.
+            <br>
+            <br>
+
+
+            In these times, we've eliminated the stress associated with shopping for daily essentials. You can now effortlessly order all your household products and groceries online. Plus, the added convenience of finding all your requirements at a single source, coupled with substantial savings, demonstrates that bigbasket, India's largest online supermarket, has transformed the way we shop for groceries. Online grocery shopping has become second nature. And when it comes to freshness, whether it's fruits and vegetables or dairy and meat, we've got you covered! Easily obtain fresh eggs, meat, fish, and more with just a few clicks.
+            <br>
+            <br>
+            
+            We now serve 300+ cities and towns across India and ensure swift delivery times, guaranteeing that all your groceries, snacks and branded foods reach you on time.
+            <br>
+            <br>
+            
+            Slotted Delivery: Choose the most convenient delivery slot to receive your groceries, ranging from early morning delivery for early birds to late-night delivery for those on the night shift. bigbasket caters to every schedule.
+            <br>
+            <br>
+            
+            Instant delivery from bbnow: In response to the ever-increasing demand for convenience, bbnow by bigbasket offers lightning-fast grocery delivery, ensuring that your essentials are at your doorstep within 15-30 minutes. Our quick delivery service has revolutionized the way you shop for groceries. Choose from 5000+ grocery essentials. bbnow is available only in select cities.
+            
+            <br>
+            <br>
+
+            Whether it's a last-minute dinner party or you simply need something urgently, we've got you covered. This service exemplifies our commitment to providing you with not just the widest range of products but also the fastest and most efficient shopping experience, making bigbasket.com the go-to destination for all your immediate grocery needs.</p>
+    </div>
+   </div>
+ 
+        <script>
+        let slideIndex = 0;
+        showSlides();
+        
+        function showSlides() {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}    
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+          setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }
+        </script>
+       
+</body>
+</html>

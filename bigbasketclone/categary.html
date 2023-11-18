@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .category{
+            display: flex;
+            border: 1px solid black;
+            box-sizing: border-box;
+            border-width: 0;
+        }
+        .unlist{
+            border:1px solid green;
+            background-color: black;
+            box-sizing: border-box;
+            border-width: 0;
+            
+        }
+        .list1{
+            display: flex;
+            -webkit-box-align: center;
+            align-items: center;
+            height: 2.25rem;
+            padding: 0.625rem;
+            margin-top: 0.625rem;
+            margin-bottom: 0.625rem;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            border-radius: 0.25rem;
+            --bg-opacity: 1;
+            background-color: rgba(64,64,64,var(--bg-opacity));
+            font-weight: 600;
+            color: white;
+            text-decoration: none;
+
+        }
+        .unlist2{
+            background-color: rgba(238,238,238,var(--tw-bg-opacity));
+            border:1px solid green;
+            
+
+        }
+        .list2{
+            --tw-bg-opacity: 1;
+            background-color: rgba(238,238,238,var(--tw-bg-opacity));
+            font-weight: 600;
+            white-space: nowrap;
+            border-radius: 0.25rem;
+            align-items: center;
+            height: 2.25rem;
+            padding: 0.625rem;
+            margin-top: 0.625rem;
+            margin-bottom: 0.625rem;
+            color: black;
+            text-decoration: none;
+        }
+        .unlist3{
+            background-color: rgba(238,238,238,var(--tw-bg-opacity));
+            border:1px solid green;
+            text-decoration: none;
+            
+        }
+        .list3{
+            font-weight: 600;
+            text-decoration:none  ;
+            white-space: nowrap;
+            border-radius: 0.25rem;
+            align-items: center;
+            height: 2.25rem;
+            padding: 0.625rem;
+            margin-top: 0.625rem;
+            margin-bottom: 0.625rem;
+            background-color: rgba(255,255,255,var(--tw-bg-opacity));
+            color: black;
+        }
+        .a{
+            color: inherit;
+            text-decoration: inherit;
+        }
+        .list{
+        cursor: pointer;
+        background-color: white;
+        outline: none;
+        outline: 0px solid transparent;
+        border:none;
+}
+.sec{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    /*border: 1px solid green;*/
+    padding-top: 10px;
+ 
+    
+}
+    </style>
+</head>
+<body>
+    <div style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+        <nav class="navbar">
+           <div style="cursor: pointer;">
+               <a href="home.html"><button><img src="./bb logo.png" alt="logo"></button></a>
+           </div>
+           <div>
+               <input style="  padding: 5px 120px;
+               text-align: left;
+               text-decoration: none;
+               display: inline-block;
+               font-size: 16px;
+               margin: 2px 2px;
+               cursor: pointer;
+               background-color: white;
+               border-radius: 5%;border-color: lightgray;" type="text"placeholder="search for product">
+           </div>
+           <div>
+               <button style=" cursor: pointer;
+               padding:12px 30px; border-radius: 5%;border:none;" >select location</button>
+               <button style=" cursor: pointer;
+               background-color:black;padding: 12px 15px;color: white; border-radius: 5%;">login/signup</button>
+                 
+           </div>
+           
+           <p>my basket</p>
+           
+       </nav>
+       <div class="sec">
+           <a href="categary.html"> <button style="background-color: rgb(85, 148, 85); color: white;padding: 5px 35px;border-radius: 5px;border:none; cursor: pointer;">Shop by 
+               <br>Category</button></a>
+          
+          <a href="exoticsfood.html"> <button class="list"  >Exotic Fruits and V...</button></a>
+           <a href="Tea.html"><button class="list"> Tea</button></a>
+           <a href="Ghee.html"><button class="list"> Ghee</button></a>
+           <a href="Nandini.html"><button class="list">Nandini</button></a>
+           
+   
+           <input type="text"placeholder="OFFER'S">
+   
+       </div>
+    </div>
+    <div class="category">
+        <div>
+            <ul class="unlist">
+                <li class="list1"><a class="a" href="">Fruits and Vegitables</a></li>
+                <li class="list1"> <a class="a" href="">FoodGrains,Oil & MAsala</a></li>
+                <li class="list1"> <a class="a" href="">Bakrey,Cake & Dairy</a></li>
+                <li class="list1"><a class="a" href="">Bravrages</a></li>
+                <li class="list1"><a class="a" href="">Snacks & Branded Food</a></li>
+                <li class="list1"><a class="a" href="">Beaty & Hiegiene</a></li>
+                <li class="list1"><a class="a" href="">Cleaning & Household</a></li>
+                <li class="list1"><a class="a" href="">Kitchen,Garden & Pets</a></li>
+                <li class="list1"><a class="a" href="">Eggs,Meat & Fish</a></li>
+                <li class="list1"><a class="a" href="">Gaurments & World Food</a></li>
+                <li class="list1"><a class="a" href="">BAby Care</a></li>
+            </ul>
+        </div>
+        <div>
+            <ul class="unlist2">
+                <li class="list2"><a class="a" href="">Cuts & Sprauts</a></li>
+                <li class="list2"><a class="a" href="">Exotics Food & Veggies</a></li>
+                <li class="list2"><a class="a" href="">Flowers,Buckes & bunches</a></li>
+                <li class="list2"><a class="a" href="">Fresh Fruits</a></li>
+                <li class="list2"><a class="a" href="">Fresh Vegitables</a></li>
+                <li class="list2"><a class="a" href="">Herbs & Seasonings</a></li>
+                <li class="list2"><a class="a" class="a" href="">Organic Fruit & Vegitables</a></li>
+            </ul>
+        </div>
+        <div>
+            <ul class="unlist3">
+                <li class="list3" "><a class="a" href="">Cuts & peeled Vaggies</a></li>
+                <li class="list3"><a class="a" href="">Cut Fruit & Tender Coconut</a></li>
+                <li class="list3"><a class="a" href="">Fresh salad & Spauts</a></li>
+                <li class="list3"><a class="a" href="">Racipe Packes</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
